@@ -1,6 +1,8 @@
+import studentinfo
+
 print("Student System Information")
 name = input("enter student name")
-print("Student Information")
+studentinfo.Student_Info(name)
 
 print("Student Course")
 print("Student Finance")
